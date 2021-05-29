@@ -60,8 +60,8 @@
 
 #ifdef MYSQL
 #define GEN_QUERY_PLAN ""
-#define START_TARN "START TRANSACTION"
-#define END_TARN "COMMIT"
+#define START_TRAN "START TRANSACTION"
+#define END_TRAN "COMMIT"
 #define SET_OUTPUT ""
 #define SET_ROWCOUNT "limit %d;\n"
 #define SET_DBASE "use %s;\n"
